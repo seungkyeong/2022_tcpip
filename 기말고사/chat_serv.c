@@ -63,7 +63,7 @@ int main(int argc, char *argv[])
 		printf("Connected cliend IP: %s \n", inet_ntoa(clnt_adr.sin_addr)); //클라이언트 IP 정보를 문자열로 변환하여 출력
 	}
 	close(serv_sock); //서버소켓을 닫음
-	return 0;정
+	return 0;
 }
 
 
